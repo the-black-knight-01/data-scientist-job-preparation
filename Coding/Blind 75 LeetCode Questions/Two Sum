@@ -35,12 +35,41 @@ Solution 1:
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        for (int i =  0; i < nums.length-1; i++){
-            for(int j = i+1; j < nums.length; j++){
+        int n = nums.length;
+
+        // Solution 1
+        for (int i =  0; i < n-1; i++){
+            for(int j = i+1; j < n; j++){
                 if (nums[i] + nums[j] == target)
                     return new int[]{i,j};
             }
         }
+
+        Map <Integer, Integer> map = new HashMap<Integer, Integer>();
+
+        // Solution 2
+        // Building map
+        for(int i = 0; i < n; i++){
+            map.put(nums[i], i);
+        }
+
+        //  current + x = target
+        // x = target - current
+        for(int i = 0; i < n-1; i++){
+            int compliment = target - nums[i];
+            if (map.containsKey(compliment) && map.get(compliment) != i)
+                return new int[]{i, map.get(compliment)};
+        }
+
+        // Solution 3
+        for(int i = 0; i < n; i++){
+            int compliment = target - nums[i];
+            if (map.containsKey(compliment) && map.get(compliment) != i)
+                return new int[]{i, map.get(compliment)};
+             map.put(nums[i], i);
+        }
+
+
         return new int[]{};
     }
 }
