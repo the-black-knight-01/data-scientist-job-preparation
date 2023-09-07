@@ -1,0 +1,29 @@
+    public int maxProfit(int[] prices) {
+        int n = prices.length;
+        int max_difference = 0;
+        for(int i = 0; i <= n-1; i++){
+            for(int j = i; j < n; j++){
+                int diff = prices[j] - prices[i] ;
+                if (prices[j] > prices[i] && diff > max_difference){
+                    max_difference = diff;
+                }
+            }
+        }
+        return max_difference;
+    }
+
+    public int maxProfit(int[] prices) {
+        int n = prices.length;
+        int max_difference = 0;
+        int space = 1;
+        while(space <= n-1){
+            for(int j = 0; j < n-space; j++){
+                int diff =  prices[j+space] - prices[j];
+                if (prices[j+space] > prices[j] && diff > max_difference){
+                    max_difference = diff;
+                }
+            }
+            space++;
+        }
+        return max_difference;
+    }
