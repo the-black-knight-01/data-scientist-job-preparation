@@ -64,4 +64,6 @@ Tech world offers a rich ecosystem of databases and there's no one-size-fits-all
 The choice of a database depends on your specific use case, data model, scalability needs, and budget.
 
 
+DB Ranking: https://db-engines.com/en/ranking
+
 ([1](),[2]())
