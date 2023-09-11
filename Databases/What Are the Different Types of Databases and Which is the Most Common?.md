@@ -13,12 +13,12 @@
 3) Document Databases:
 - Handles semi-structured data with varying fields.
 - Provides schema flexibility and horizontal scaling.
-- Examples: MongoDB, Couchbase
+- Examples: **MongoDB**, Couchbase
 
 4) Graph Databases:
 - Perfect for data with complex relationships.
 - Used in applications like social networks and recommendation engines.
-- Examples: Neo4j, Amazon Neptune.
+- Examples: **Neo4j**, Amazon Neptune.
 
 5) Columnar Databases:
 - Data is stored by columns instead of rows to optimize reading from a column.
@@ -33,17 +33,17 @@
 7) In-Memory Databases:
 - When speed is of the essence, and you can afford to sacrifice persistence.
 - Ideal for caching, real-time analytics, and high-frequency trading.
-- Redis and Memcached are popular choices.
+- **Redis** and Memcached are popular choices.
 
 8) Wide-Column Stores:
 - Use in applications with large volumes of data and high write throughput.
 - Best suited for analytical workloads and applications that require high availability.
-- Apache Cassandra is a prominent example.
+- **Apache Cassandra** is a prominent example.
 
 9) Search Engines:
 - When your primary use case revolves around full-text search.
 - Essential for applications that require searching of data content.
-- Elasticsearch and Solr are popular choices.
+- **Elasticsearch** and Solr are popular choices.
 
 10) Spatial Databases:
 - Used to store geographical and location-based data.
@@ -53,12 +53,12 @@
 11) Blob Datastore:
 - Use in applications that requires storing large documents, images, audio and video files.
 - Provides high availability, durability and cost effective storage.
-- Examples include HDFS, Amazon S3
+- Examples include HDFS, **Amazon S3**
 
 12) Ledger Databases:
 - Used for maintaining a transparent, immutable, and cryptographically verifiable transaction log.
 - Useful for applications dealing with financial transactions and supply chain systems
-- Examples: Amazon QLDB, Azure SQL Ledger
+- Examples: **Amazon QLDB**, Azure SQL Ledger
 
 Tech world offers a rich ecosystem of databases and there's no one-size-fits-all solution.
 The choice of a database depends on your specific use case, data model, scalability needs, and budget.
