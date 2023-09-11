@@ -8,7 +8,7 @@
 2) Key-Value Store:
 - Use when data model is based on key-value pairs and requires high scalability and availability.
 - Provides lightning-fast data retrieval and high throughput.
-- Examples: Aerospike, DynamoDB
+- Examples: Aerospike, **DynamoDB** [1](https://www.youtube.com/watch?v=OfZgHXsYqNE&ab_channel=EnlearAcademy)
 
 3) Document Databases:
 - Handles semi-structured data with varying fields.
