@@ -3,7 +3,7 @@
 1) Relational Databases (SQL):
 - Use when your data is structured and consistent.
 - Supports ACID transactions and complex queries.
-- Examples: MySQL([1](https://www.youtube.com/watch?v=hlGoQC332VM&pp=ygUObXlzcWwgdHV0b3JpYWw%3D), [2](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=4796s&pp=ygUObXlzcWwgdHV0b3JpYWw%3D)), PostgreSQL, Oracle. SQL Server ([1](https://www.youtube.com/watch?v=ljsfENuIJuY&ab_channel=Intellipaat),  [2](https://www.sqlservertutorial.net/))
+- Examples: **MySQL**([1](https://www.youtube.com/watch?v=hlGoQC332VM&pp=ygUObXlzcWwgdHV0b3JpYWw%3D), [2](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=4796s&pp=ygUObXlzcWwgdHV0b3JpYWw%3D)), PostgreSQL, Oracle. **SQL Server** ([1](https://www.youtube.com/watch?v=ljsfENuIJuY&ab_channel=Intellipaat),  [2](https://www.sqlservertutorial.net/))
 
 2) Key-Value Store:
 - Use when data model is based on key-value pairs and requires high scalability and availability.
